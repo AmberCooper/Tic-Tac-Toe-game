@@ -300,7 +300,7 @@ void loop(){
       }
       else if((quan_youxia==3)||(cha_youxia==3))
       {
-            Serial.println(("ST<{\"cmd_code\":\"set_visible\",\"type\":\"widget\",\"widget\":\"gif10\",\"visible\":true}>ET"));
+            Serial.println(F("ST<{\"cmd_code\":\"set_visible\",\"type\":\"widget\",\"widget\":\"gif10\",\"visible\":true}>ET"));
       }
   }
 }
